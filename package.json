@@ -1,0 +1,32 @@
+{
+  "name": "mini-rm",
+  "version": "0.0.1",
+  "description": "snippet project to learn node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necrifede/mini-rm.git"
+  },
+  "keywords": [
+    "rm",
+    "room",
+    "calendar"
+  ],
+  "author": "Nestor Felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/necrifede/mini-rm/issues"
+  },
+  "homepage": "https://github.com/necrifede/mini-rm#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.5.3",
+    "mongodb": "^2.1.18",
+    "underscore": "^1.8.3"
+  }
+}
